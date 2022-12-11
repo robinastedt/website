@@ -1,0 +1,92 @@
+
+body {
+	background-color: #000000;
+	color: #D3D3D3;
+	font-family: TravelingTypewriter, "Courier New", "Lucida Console";
+	font-size: 16pxpx;
+	background: -webkit-linear-gradient(#000000, #732322 );
+	background: -o-linear-gradient(#000000, #732322 );
+	background: -moz-linear-gradient(#000000, #732322 );
+	background: linear-gradient(#000000, #732322 );
+}
+
+img {
+	border-style: none;
+}
+
+a:link {
+	color: #D3D3D3;
+}
+a:visited {
+	color: #D3D3D3;
+}
+a:hover {
+	color: #904848;
+}
+a:active {
+	color: #900000;
+}
+
+h1 {
+	font-size: 27px;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+h1,h2,h3 {
+	color: #972322 ;
+}
+a.linkTitle {
+	color: #972322 ;
+}
+
+h4 {
+	color: #904848;
+	line-height: 0;
+}
+
+hr {
+	display: block;
+	color: #972322;
+	background-color: #972322;
+	border-color: #972322;
+	border-top: 1px solid #972322;
+	height: 1px;
+	width: 60%;
+	border: 0;
+	padding: 0;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.contentBox {
+	position: relative;
+	left: 50%;
+	width: 600px;
+	margin-left: -300px;
+	margin-top: 5px;
+	border: 1px solid #972322 ;
+	background: #000000;
+	padding: 15px;
+	margin
+}
+#topContentBox {
+	margin-top: 60px;
+}
+#bottomFillerBox {
+	margin-bottom: 75px;
+}
+#bottomContentBox {
+	bottom: 0px;
+	position: fixed;
+}
+
+#WIP {
+	color: #904848;
+}

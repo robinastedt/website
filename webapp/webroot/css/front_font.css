@@ -1,0 +1,9 @@
+@font-face {
+	font-family: Font1942Report;
+	src:	url('1942Report.ttf') format('truetype'),
+			url('1942Report.woff') format('woff');
+}
+
+body {
+	font-family: Font1942Report, "Courier New", "Lucida Console";
+}

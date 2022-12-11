@@ -1,0 +1,17 @@
+#readabilityBox {
+	position: fixed;
+	left: 25px;
+	top: 25px;
+	border: 2px;
+	border-style: solid;
+	padding: 10px;
+	border-radius: 15px;
+	border-color: #696969;
+	background: #000000;
+}
+#readabilityLink {
+	color: #696969;
+	font-size: 20px;
+	font-family: "Calibri", "Helvetica", "Arial";
+	text-decoration: none;
+}

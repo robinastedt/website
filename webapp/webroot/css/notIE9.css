@@ -1,0 +1,6 @@
+#wholepageBox {
+	background: -webkit-linear-gradient(#000000, #972322);
+	background: -o-linear-gradient(#000000, #972322);
+	background: -moz-linear-gradient(#000000, #972322);
+	background: linear-gradient(#000000, #972322);
+}

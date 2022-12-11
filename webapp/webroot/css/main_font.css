@@ -1,0 +1,9 @@
+@font-face {
+	font-family: TravelingTypewriter;
+	src: url('TravelingTypewriter.ttf') format('truetype'),
+		url('TravelingTypewriter.woff') format('woff');
+}
+
+body {
+	font-family: TravelingTypewriter, "Courier New", "Lucida Console";
+}
