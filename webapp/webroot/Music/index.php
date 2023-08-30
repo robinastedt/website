@@ -7,7 +7,9 @@
 	$params = array(
 		1,
 		'Music',
-		9,
+		11,
+		'Requiem for a childhood lost',
+		'Completely plucked up',
 		'Travesty Of Ephemerality',
 		'Journey',
 		'Enter the Unknown',
@@ -20,6 +22,16 @@
 	);
 	call_user_func_array('echoTitle', $params);	
 ?>
+
+<?php echoNewContentBox(); ?>
+
+<h3 id="Requiemforachildhoodlost">Requiem for a childhood lost</h3>
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=770006839/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://robinastedt.bandcamp.com/track/requiem-for-a-childhood-lost">Requiem for a childhood lost by Robin Åstedt</a></iframe>
+
+<?php echoNewContentBox(); ?>
+
+<h3 id="Completelypluckedup">Completely plucked up</h3>
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=2508360756/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://robinastedt.bandcamp.com/track/completely-plucked-up">Completely plucked up by Robin Åstedt</a></iframe>
 
 <?php echoNewContentBox(); ?>
 
