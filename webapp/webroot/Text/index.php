@@ -6,7 +6,9 @@
 	$params = array(
 		1,
 		'Text',
-		8,
+		10,
+		'Pain of yesteryear',
+		'The meaning of life',
 		'Deny The Stars',
 		'The Ones That Can',
 		"The Nihilist's Dilemma",
@@ -19,6 +21,52 @@
 	call_user_func_array('echoTitle', $params);
 	
 ?>
+
+	<?php echoNewContentBox() ?>
+	<!--PAIN OF YESTERYEAR START-->
+
+	<h3 id="Painofyesteryear">Pain of yesteryear</h3>
+
+	<p>[2023-03-24]</p>
+
+	<p>I recall the pain of yesteryear,<br />
+	A mushroom cloud that lingers near.<br />
+	In the aftermath, I've come to know,<br />
+	Decades of winter, ice, and snow.</p>
+
+	<p>Though the sun begins to climb,<br />
+	Permafrost still holds my time.<br />
+	As seasons change, I seek the spark,<br />
+	To warm my soul and heal the dark.</p>
+
+	<p>Within the shadows, I'll find my way,<br />
+	Embracing life as dawn breaks day.<br />
+	In time, I'll sow the seeds of fate,<br />
+	Nurturing growth, a change innate.</p>
+
+	<p>Though my heart may ache and yearn,<br />
+	Yesteryear's pain will ever burn.<br />
+	In newfound light, I'll rise and strive,<br />
+	Forever scarred, but so alive.</p>
+	
+	<p><a href="#">Back to the top</a></p>
+	<!--PAIN OF YESTERYEAR END-->
+
+	<?php echoNewContentBox() ?>
+
+	<!--THE MEANING OF LIFE START-->
+	<h3 id="Themeaningoflife">The meaning of life</h3>
+
+	<p>[2023-03-13]</p>
+
+	<p>The meaning of life is a good cup of coffee<br />
+	The meaning of life is a cigarette after sex<br />
+	The meaning of life is love<br />
+	The meaning of life is a four year old with cancer,<br />
+	and the merciless undiscriminating onslaught of entropy</p>
+
+	<p><a href="#">Back to the top</a></p>
+	<!--THE MEANING OF LIFE END-->
 	
 	<?php echoNewContentBox() ?>
 
