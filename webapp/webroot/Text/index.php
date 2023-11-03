@@ -6,7 +6,8 @@
 	$params = array(
 		1,
 		'Text',
-		10,
+		11,
+		'Arbitrary',
 		'Pain of yesteryear',
 		'The meaning of life',
 		'Deny The Stars',
@@ -21,6 +22,22 @@
 	call_user_func_array('echoTitle', $params);
 	
 ?>
+
+	<?php echoNewContentBox() ?>
+	<!-- ARBITRARY START -->
+	
+	<h3 id="Arbitrary">Arbitrary</h3>
+
+	<p>[2023-11-02]</p>
+
+	<p>Arbitrary evil is far worse than malicious evil.</p>
+	<p>At least the malicious will gain some kind of benefit out of the affair.
+	The arbitrary is not only hateful, it is tragic too.</p>
+	<p>The malicious will leave you with hope of retribution, while the arbitrary will leave you confused, asking "why?"</p>
+
+	<p><a href="#">Back to the top</a></p>
+
+	<!-- ARBITRARY END -->
 
 	<?php echoNewContentBox() ?>
 	<!--PAIN OF YESTERYEAR START-->
