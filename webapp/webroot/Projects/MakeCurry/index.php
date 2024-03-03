@@ -1,3 +1,5 @@
+<!-- Projects/MakeCurry/index.php START -->
+
 <?php
 	include_once('../../genericPageTop.php');
 	
@@ -28,8 +30,7 @@
 
 <?php echoNewContentBox() ?>
 <h2>Example usage</h2>
-<pre><code>
-#include &lt;iostream&gt;
+<pre><code>#include &lt;iostream&gt;
 #include "MakeCurry.h"
 
 int testFunc1(int x) {
@@ -61,9 +62,8 @@ int main(int argc, char** argv) {
 
     auto curryTest4 = make_curry(testFunc4);
     std::cout << curryTest4(1)(1)(1)(1) << std::endl;
-}
-</code></pre>
+}</code></pre>
 
-<?php
-	include_once('../../genericPageBottom.php');
-?>
+<?php include_once('../../genericPageBottom.php'); ?>
+
+<!-- Projects/MakeCurry/index.php END -->

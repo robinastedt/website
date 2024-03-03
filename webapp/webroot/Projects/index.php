@@ -1,4 +1,6 @@
 
+<!-- Projects/index.php START -->
+
 <?php
 	$meta_information_description = 'Various programming projects, finished and under development.';
 	include_once('../genericPageTop.php'); 
@@ -145,3 +147,5 @@ IF-statements works so that the pointer is increased by 1 if the statement is tr
 <!--NATURAL SELECTION END-->
 
 <?php include_once("../genericPageBottom.php"); ?>
+
+<!-- Projects/index.php END -->

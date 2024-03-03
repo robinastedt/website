@@ -1,3 +1,5 @@
+<!-- Projects/WalkingIsHard/index.php START -->
+
 <?php
 	include_once('../../genericPageTop.php');
 	
@@ -32,6 +34,6 @@ saveinterval [interval > 0] : Determine the interval in generations between each
 keepoldsaves : Creates a copy of the save for that generation, to be able to revert back to an earlier generation.</p>
 
 
-<?php
-	include_once('../../genericPageBottom.php');
-?>
+<?php include_once('../../genericPageBottom.php'); ?>
+
+<!-- Projects/WalkingIsHard/index.php END -->

@@ -1,3 +1,5 @@
+<!-- Projects/CellularSoftBody/index.php START -->
+
 <?php 
 	$meta_information_description = "Cellular Soft Body: Artificial multi-cellular organisms which features neural networks and resource distibution in an evolutionary setting with soft-body physics.";
 	include_once("../../genericPageTop.php"); 
@@ -11,25 +13,24 @@
 	
 	
 	
-	<?php echoNewContentBox() ?>
-	
-	<!--CELLULAR SOFT BODY START-->
-	<h3 id="CellularSoftBody">Cellular Soft Body <span id="WIP">[WORK IN PROGRESS]</span></h3>
-	<p>Cross-platform Java 8</p>
-	<p>Artificial multi-cellular organisms which features neural networks and resource distibution in an evolutionary setting with soft-body physics.</br>
-	The blue example creature is controllable with the arrow keys. (Currently disabled from version 0.3.2)</p>
-	<p><a href="/Projects/CellularSoftBody/CellularSoftBody_0.3.5.jar">Download version 0.3.5</a> (Java 8) [2015-03-04]</br>
-	<a href="/Projects/CellularSoftBody/CellularSoftBody_0.3.4.jar">Download version 0.3.4</a> (Java 8) [2015-03-04]</br>
-	<a href="/Projects/CellularSoftBody/CellularSoftBody_0.3.2.jar">Download version 0.3.2</a> (Java 7) [2015-03-04]</br>
-	<a href="/Projects/CellularSoftBody/CellularSoftBody_0.3.0.jar">Download version 0.3.0</a> (Java 7) [2015-03-01]</br>
-	<a href="/Projects/CellularSoftBody/CellularSoftBody_0.2.1.exe">Download version 0.2.1</a> (.NET 4.5) [2015-01-12]</br>
-	<a href="/Projects/CellularSoftBody/CellularSoftBody_0.2.0.exe">Download version 0.2.0</a> (.NET 4.5) [2015-01-08]</br>
-	<a href="/Projects/CellularSoftBody/CellularSoftBody_0.1.2.exe">Download version 0.1.2</a> (.NET 4.5) [2014-12-17]</br>
-	<a href="/Projects/CellularSoftBody/CellularSoftBody_0.1.1.exe">Download version 0.1.1</a> (.NET 4.5) [2014-12-15]</p>
+<?php echoNewContentBox() ?>
 	
 
-	<?php echoNewContentBox() ?>
-	
+<h3 id="CellularSoftBody">Cellular Soft Body <span id="WIP">[WORK IN PROGRESS]</span></h3>
+<p>Cross-platform Java 8</p>
+<p>Artificial multi-cellular organisms which features neural networks and resource distibution in an evolutionary setting with soft-body physics.</br>
+The blue example creature is controllable with the arrow keys. (Currently disabled from version 0.3.2)</p>
+<p><a href="/Projects/CellularSoftBody/CellularSoftBody_0.3.5.jar">Download version 0.3.5</a> (Java 8) [2015-03-04]</br>
+<a href="/Projects/CellularSoftBody/CellularSoftBody_0.3.4.jar">Download version 0.3.4</a> (Java 8) [2015-03-04]</br>
+<a href="/Projects/CellularSoftBody/CellularSoftBody_0.3.2.jar">Download version 0.3.2</a> (Java 7) [2015-03-04]</br>
+<a href="/Projects/CellularSoftBody/CellularSoftBody_0.3.0.jar">Download version 0.3.0</a> (Java 7) [2015-03-01]</br>
+<a href="/Projects/CellularSoftBody/CellularSoftBody_0.2.1.exe">Download version 0.2.1</a> (.NET 4.5) [2015-01-12]</br>
+<a href="/Projects/CellularSoftBody/CellularSoftBody_0.2.0.exe">Download version 0.2.0</a> (.NET 4.5) [2015-01-08]</br>
+<a href="/Projects/CellularSoftBody/CellularSoftBody_0.1.2.exe">Download version 0.1.2</a> (.NET 4.5) [2014-12-17]</br>
+<a href="/Projects/CellularSoftBody/CellularSoftBody_0.1.1.exe">Download version 0.1.1</a> (.NET 4.5) [2014-12-15]</p>
+
+<?php echoNewContentBox() ?>
+
 <h3>Version History</h3>
 
 <h4>0.3.5 [2015-09-13]</h4>
@@ -85,9 +86,8 @@
 <h4>0.1.0 [2014-12-13]</h4>
 <p>* First draft of physics engine.</p>
 
+<p><a href="#">Back to the top</a></p>
 
-	<p><a href="#">Back to the top</a></p>
-	<!--CELLULAR SOFT BODY END-->
-	
-	
 <?php include_once("../../genericPageBottom.php"); ?>
+
+<!-- Projects/CellularSoftBody/index.php END -->

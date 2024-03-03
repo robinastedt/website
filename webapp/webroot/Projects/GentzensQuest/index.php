@@ -1,3 +1,5 @@
+<!-- Projects/GentzensQuest/index.php START -->
+
 <?php
 	include_once('../../genericPageTop.php');
 	
@@ -22,6 +24,6 @@ Games</a> [Coming soon].</p>
 <p>Play: <a target="_blank" href="https://play.google.com/store/apps/details?id=com.datx02_18_35">Google Play Store</a>.</p>
 
 
-<?php
-	include_once('../../genericPageBottom.php');
-?>
+<?php include_once('../../genericPageBottom.php'); ?>
+
+<!-- Projects/GentzensQuest/index.php END -->

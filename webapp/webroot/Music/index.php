@@ -1,9 +1,9 @@
-
+<!-- Music/index.php START -->
 
 <?php
 	$meta_information_description = "Various tracks of music produced by me.";
 	include_once("../genericPageTop.php");
-	
+
 	$params = array(
 		1,
 		'Music',
@@ -21,7 +21,7 @@
 		'Doom E1M8 Violin/Synth Mix',
 		'Walk'
 	);
-	call_user_func_array('echoTitle', $params);	
+	call_user_func_array('echoTitle', $params);
 ?>
 
 <?php echoNewContentBox(); ?>
@@ -91,3 +91,5 @@
 The rest of my tracks from 2010 are kept at my <a href="http://robinastedt.bandcamp.com" target="_blank">bandcamp page</a>.</p>
 
 <?php include_once("../genericPageBottom.php"); ?>
+
+<!-- Music/index.php END -->

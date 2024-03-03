@@ -1,3 +1,5 @@
+<!-- Projects/JavaNursery/index.php START -->
+
 <?php
 	include_once('../../genericPageTop.php');
 	
@@ -102,6 +104,6 @@ public class NurseryTest {
 }
 </code></pre>
 
-<?php
-	include_once('../../genericPageBottom.php');
-?>
+<?php include_once('../../genericPageBottom.php'); ?>
+
+<!-- Projects/JavaNursery/index.php END -->

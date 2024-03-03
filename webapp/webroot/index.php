@@ -1,17 +1,18 @@
+<!-- /index.php START -->
 
-<?php include_once("utilities.php"); ?>
+<?php
+	include_once("commonTop.php");
+	include_once("utilities.php");
+	$meta_information_description = 'Robin &Aring;stedt: My personal website showcasing ongoing programming projects as well music and texts made by me.';	
+?>
 <html>
 	<head>
-		<!--[if IE]><META http-equiv="refresh" content="0;URL=/UnsupportedBrowser/"><![endif]-->
-		<title>Robin &Aring;stedt</title>
+		<?php include_once("commonHead.php"); ?>
+
 		<link rel="stylesheet" type="text/css" href="/css/front.css">
 		<link rel="stylesheet" type="text/css" href="/css/readability_switch_link.css">
 		<?php echoCSSFont('front'); ?>	
 		<link rel="stylesheet" type="text/css" href="/css/notIE9.css" />
-		<meta name="keywords" content="Robin &Aring;stedt, Programming, Music, Poetry, Java, .NET, C#, Projects">
-		<meta name="author" content="Robin &Aring;stedt">
-		<meta name="description" content="Robin &Aring;stedt: My personal website showcasing ongoing programming projects as well music and texts made by me.">
-		<?php include_once("analytics.php"); ?>
 	</head>
 	<body>
 		<div id="wholepageBox">
@@ -25,3 +26,5 @@
 		<?php echoReadabilitySwitchLink() ?>
 	</body>
 </html>
+
+<!-- index.php END -->

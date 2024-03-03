@@ -1,3 +1,5 @@
+<!-- Projects/DynamicGrid/index.php START -->
+
 <?php
 	include_once('../../genericPageTop.php');
 	
@@ -60,3 +62,5 @@ int main(int argc, char** argv) {
 <?php
 	include_once('../../genericPageBottom.php');
 ?>
+
+<!-- Projects/DynamicGrid/index.php END -->
