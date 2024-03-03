@@ -7,7 +7,8 @@
 	$params = array(
 		1,
 		'Music',
-		11,
+		12,
+		'Ardor',
 		'Requiem for a childhood lost',
 		'Completely plucked up',
 		'Travesty Of Ephemerality',
@@ -22,6 +23,11 @@
 	);
 	call_user_func_array('echoTitle', $params);	
 ?>
+
+<?php echoNewContentBox(); ?>
+
+<h3 id="Ardor">Ardor</h3>
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=3219134417/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://robinastedt.bandcamp.com/track/ardor">Ardor by Robin Åstedt</a></iframe>
 
 <?php echoNewContentBox(); ?>
 
