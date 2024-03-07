@@ -1,0 +1,20 @@
+---
+version: '3'
+services:
+  web_server:
+    build: web_server
+    volumes:
+      - webroot:/var/www/robinastedt.com
+    ports:
+      - "9000:9000"
+  proxy_server:
+    build: proxy_server/.
+    ports:
+      - "8080:8080"
+    volumes:
+      - webroot:/var/www/robinastedt.com
+    links:
+      - web_server
+volumes:
+  webroot:
+...

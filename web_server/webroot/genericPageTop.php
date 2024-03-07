@@ -9,7 +9,7 @@
 	<head>
 		<?php include_once("commonHead.php"); ?>
 
-		<?php $noCSS = $_GET["noCSS"]; ?>
+		<?php $noCSS = $disableFont = isset($_GET["noCSS"]) ? $_GET["noCSS"] : 0; ?>
 
 		<?php if($noCSS != 1) : ?>
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
