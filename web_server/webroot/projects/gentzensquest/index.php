@@ -1,12 +1,12 @@
-<!-- Projects/GentzensQuest/index.php START -->
+<!-- projects/gentzensquest/index.php START -->
 
 <?php
 	include_once('../../genericPageTop.php');
 	
 	$params = array(
 		2,
-		'Projects',
-		'GentzensQuest'
+		'projects',
+		'gentzensquest'
 	);
 	call_user_func_array('echoTitle', $params);
 	
@@ -26,4 +26,4 @@ Games</a> [Coming soon].</p>
 
 <?php include_once('../../genericPageBottom.php'); ?>
 
-<!-- Projects/GentzensQuest/index.php END -->
+<!-- projects/gentzensquest/index.php END -->

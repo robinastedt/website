@@ -1,12 +1,12 @@
-<!-- Projects/DynamicGrid/index.php START -->
+<!-- projects/dynamicgrid/index.php START -->
 
 <?php
 	include_once('../../genericPageTop.php');
 	
 	$params = array(
 		2,
-		'Projects',
-		'DynamicGrid'
+		'projects',
+		'dynamicgrid'
 	);
 	call_user_func_array('echoTitle', $params);
 	
@@ -63,4 +63,4 @@ int main(int argc, char** argv) {
 	include_once('../../genericPageBottom.php');
 ?>
 
-<!-- Projects/DynamicGrid/index.php END -->
+<!-- projects/dynamicgrid/index.php END -->

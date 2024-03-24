@@ -1,12 +1,12 @@
-<!-- Projects/CellularSoftBody/index.php START -->
+<!-- projects/cellularsoftbody/index.php START -->
 
 <?php 
 	$meta_information_description = "Cellular Soft Body: Artificial multi-cellular organisms which features neural networks and resource distibution in an evolutionary setting with soft-body physics.";
 	include_once("../../genericPageTop.php"); 
 	$params = array(
 		2,
-		'Projects',
-		'CellularSoftBody'
+		'projects',
+		'cellularsoftbody'
 	);
 	call_user_func_array('echoTitle', $params);
 ?>
@@ -20,14 +20,14 @@
 <p>Cross-platform Java 8</p>
 <p>Artificial multi-cellular organisms which features neural networks and resource distibution in an evolutionary setting with soft-body physics.</br>
 The blue example creature is controllable with the arrow keys. (Currently disabled from version 0.3.2)</p>
-<p><a href="/Projects/CellularSoftBody/CellularSoftBody_0.3.5.jar">Download version 0.3.5</a> (Java 8) [2015-03-04]</br>
-<a href="/Projects/CellularSoftBody/CellularSoftBody_0.3.4.jar">Download version 0.3.4</a> (Java 8) [2015-03-04]</br>
-<a href="/Projects/CellularSoftBody/CellularSoftBody_0.3.2.jar">Download version 0.3.2</a> (Java 7) [2015-03-04]</br>
-<a href="/Projects/CellularSoftBody/CellularSoftBody_0.3.0.jar">Download version 0.3.0</a> (Java 7) [2015-03-01]</br>
-<a href="/Projects/CellularSoftBody/CellularSoftBody_0.2.1.exe">Download version 0.2.1</a> (.NET 4.5) [2015-01-12]</br>
-<a href="/Projects/CellularSoftBody/CellularSoftBody_0.2.0.exe">Download version 0.2.0</a> (.NET 4.5) [2015-01-08]</br>
-<a href="/Projects/CellularSoftBody/CellularSoftBody_0.1.2.exe">Download version 0.1.2</a> (.NET 4.5) [2014-12-17]</br>
-<a href="/Projects/CellularSoftBody/CellularSoftBody_0.1.1.exe">Download version 0.1.1</a> (.NET 4.5) [2014-12-15]</p>
+<p><a href="/projects/cellularsoftbody/CellularSoftBody_0.3.5.jar">Download version 0.3.5</a> (Java 8) [2015-03-04]</br>
+<a href="/projects/cellularsoftbody/CellularSoftBody_0.3.4.jar">Download version 0.3.4</a> (Java 8) [2015-03-04]</br>
+<a href="/projects/cellularsoftbody/CellularSoftBody_0.3.2.jar">Download version 0.3.2</a> (Java 7) [2015-03-04]</br>
+<a href="/projects/cellularsoftbody/CellularSoftBody_0.3.0.jar">Download version 0.3.0</a> (Java 7) [2015-03-01]</br>
+<a href="/projects/cellularsoftbody/CellularSoftBody_0.2.1.exe">Download version 0.2.1</a> (.NET 4.5) [2015-01-12]</br>
+<a href="/projects/cellularsoftbody/CellularSoftBody_0.2.0.exe">Download version 0.2.0</a> (.NET 4.5) [2015-01-08]</br>
+<a href="/projects/cellularsoftbody/CellularSoftBody_0.1.2.exe">Download version 0.1.2</a> (.NET 4.5) [2014-12-17]</br>
+<a href="/projects/cellularsoftbody/CellularSoftBody_0.1.1.exe">Download version 0.1.1</a> (.NET 4.5) [2014-12-15]</p>
 
 <?php echoNewContentBox() ?>
 
@@ -39,8 +39,8 @@ The blue example creature is controllable with the arrow keys. (Currently disabl
 
 <h4>0.3.4 [2015-09-13]</h4>
 <p>* Organism object is now fully omitted and removed all legacy use of it.</p>
-<p><a href="/Projects/CellularSoftBody/screenshot_0.3.4.png" target="_blank"><img src="/Projects/CellularSoftBody/screenshot_0.3.4.png" alt="Screenshot of CellularSoftBody version 0.3.4" style="width:600px"></a></p>
-<p><a href="/Projects/CellularSoftBody/screenshot_0.3.4_2.png" target="_blank"><img src="/Projects/CellularSoftBody/screenshot_0.3.4_2.png" alt="Screenshot of CellularSoftBody version 0.3.4" style="width:600px"></a></p>
+<p><a href="/projects/cellularsoftbody/screenshot_0.3.4.png" target="_blank"><img src="/projects/cellularsoftbody/screenshot_0.3.4.png" alt="Screenshot of CellularSoftBody version 0.3.4" style="width:600px"></a></p>
+<p><a href="/projects/cellularsoftbody/screenshot_0.3.4_2.png" target="_blank"><img src="/projects/cellularsoftbody/screenshot_0.3.4_2.png" alt="Screenshot of CellularSoftBody version 0.3.4" style="width:600px"></a></p>
 
 <h4>0.3.3 [2015-09-13]</h4>
 <p>* New cells now properly checks if there are more cells around it that it could bind to. It achieves this by working its way around from its parent asking already bound neighbors for  their neighbors. This still needs more work however.<br/>
@@ -73,7 +73,7 @@ The blue example creature is controllable with the arrow keys. (Currently disabl
 <p>* Major graphics engine redesign.</br>
 * Organism outline is now drawn on a cellular level</br>
 * Fixed some major graphical glitches caused when an organism was cut in half.</p>
-<p><a href="/Projects/CellularSoftBody/screenshot_0.2.0.png" target="_blank"><img src="/Projects/CellularSoftBody/screenshot_0.2.0_600px.png" alt="Screenshot of CellularSoftBody version 0.2.0" style="width:600px"></a></p>
+<p><a href="/projects/cellularsoftbody/screenshot_0.2.0.png" target="_blank"><img src="/projects/cellularsoftbody/screenshot_0.2.0_600px.png" alt="Screenshot of CellularSoftBody version 0.2.0" style="width:600px"></a></p>
 
 <h4>0.1.2 [2014-12-17]</h4>
 <p>* Minor bug fixes and tweaking.</br>
@@ -90,4 +90,4 @@ The blue example creature is controllable with the arrow keys. (Currently disabl
 
 <?php include_once("../../genericPageBottom.php"); ?>
 
-<!-- Projects/CellularSoftBody/index.php END -->
+<!-- projects/cellularsoftbody/index.php END -->

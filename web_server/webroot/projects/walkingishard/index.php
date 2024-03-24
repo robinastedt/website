@@ -1,12 +1,12 @@
-<!-- Projects/WalkingIsHard/index.php START -->
+<!-- projects/walkingishard/index.php START -->
 
 <?php
 	include_once('../../genericPageTop.php');
 	
 	$params = array(
 		2,
-		'Projects',
-		'WalkingIsHard'
+		'projects',
+		'walkingishard'
 	);
 	call_user_func_array('echoTitle', $params);
 	
@@ -14,7 +14,7 @@
 ?>
 
 <?php include_once('common.php'); ?>
-<p><a href="/Projects/WalkingIsHard/WalkingIsHard_2015-10-08.jar">Download</a> [2015-10-08]<br />
+<p><a href="/projects/walkingishard/WalkingIsHard_2015-10-08.jar">Download</a> [2015-10-08]<br />
 Source: <a href="https://github.com/robinastedt/WalkingIsHard" target="_blank">Github</a></p>
 <?php include_once('commonPicture.php'); ?>
 <?php echoNewContentBox(); ?>
@@ -36,4 +36,4 @@ keepoldsaves : Creates a copy of the save for that generation, to be able to rev
 
 <?php include_once('../../genericPageBottom.php'); ?>
 
-<!-- Projects/WalkingIsHard/index.php END -->
+<!-- projects/walkingishard/index.php END -->

@@ -1,12 +1,12 @@
-<!-- Projects/JavaNursery/index.php START -->
+<!-- projects/javanursery/index.php START -->
 
 <?php
 	include_once('../../genericPageTop.php');
 	
 	$params = array(
 		2,
-		'Projects',
-		'JavaNursery'
+		'projects',
+		'javanursery'
 	);
 	call_user_func_array('echoTitle', $params);
 	
@@ -106,4 +106,4 @@ public class NurseryTest {
 
 <?php include_once('../../genericPageBottom.php'); ?>
 
-<!-- Projects/JavaNursery/index.php END -->
+<!-- projects/javanursery/index.php END -->

@@ -1,4 +1,4 @@
-<!-- Text/index.php START -->
+<!-- text/index.php START -->
 
 <?php
 	$meta_information_description="Various pieces of texts I've written over the years.";
@@ -6,7 +6,7 @@
 	
 	$params = array(
 		1,
-		'Text',
+		'text',
 		12,
 		'Tyranny of the mind',
 		'Arbitrary',
@@ -389,4 +389,4 @@ Another will make the gods look small</p>
 
 <?php include_once("../genericPageBottom.php"); ?>
 
-<!-- Text/index.php END -->
+<!-- text/index.php END -->

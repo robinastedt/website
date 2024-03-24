@@ -1,12 +1,12 @@
-<!-- Projects/MakeCurry/index.php START -->
+<!-- projects/makecurry/index.php START -->
 
 <?php
 	include_once('../../genericPageTop.php');
 	
 	$params = array(
 		2,
-		'Projects',
-		'MakeCurry'
+		'projects',
+		'makecurry'
 	);
 	call_user_func_array('echoTitle', $params);
 	
@@ -66,4 +66,4 @@ int main(int argc, char** argv) {
 
 <?php include_once('../../genericPageBottom.php'); ?>
 
-<!-- Projects/MakeCurry/index.php END -->
+<!-- projects/makecurry/index.php END -->

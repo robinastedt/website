@@ -1,5 +1,5 @@
 
-<!-- Projects/index.php START -->
+<!-- projects/index.php START -->
 
 <?php
 	$meta_information_description = 'Various programming projects, finished and under development.';
@@ -7,10 +7,10 @@
 
 	$params = array(
 		1,
-		'Projects',
+		'projects',
 		10,
-		"MakeCurry",
-		"JavaNursery",
+		"Make Curry",
+		"Java Nursery",
 		"Gentzen's Quest",
 		'Dynamic Grid',
 		'Walking Is Hard',
@@ -28,8 +28,8 @@
 <!--MAKE CURRY START-->
 <h3 id="MakeCurry">Make Curry</h3>
 <p>C++ Utility</p>
-<?php include_once('MakeCurry/common.php'); ?>
-<p><?php echoLink("Read more...", "/Projects/MakeCurry/") ?></p>
+<?php include_once('makecurry/common.php'); ?>
+<p><?php echoLink("Read more...", "/projects/makecurry/") ?></p>
 <p><a href="#">Back to the top</a>
 <!--MAKE CURRY END-->
 
@@ -38,8 +38,8 @@
 <!--JAVA NURSERY START-->
 <h3 id="JavaNursery">JavaNursery</h3>
 <p>Java Utility</p>
-<?php include_once('JavaNursery/common.php'); ?>
-<p><?php echoLink("Read more...", "/Projects/JavaNursery/") ?></p>
+<?php include_once('javanursery/common.php'); ?>
+<p><?php echoLink("Read more...", "/projects/javanursery/") ?></p>
 <p><a href="#">Back to the top</a>
 <!--JAVA NURSERY END-->
 
@@ -48,8 +48,8 @@
 <!--GENTZENS QUEST START-->
 <h3 id="GentzensQuest">Gentzen's Quest</h3>
 <p>Android Java App</p>
-<?php include_once('GentzensQuest/common.php'); ?>
-<p><?php echoLink("Read more...", "/Projects/GentzensQuest/") ?></p>
+<?php include_once('gentzensquest/common.php'); ?>
+<p><?php echoLink("Read more...", "/projects/gentzensquest/") ?></p>
 <p><a href="#">Back to the top</a>
 <!--GENTZENS QUEST END-->
 
@@ -58,17 +58,17 @@
 <!--DYNAMIC GRID START-->
 <h3 id="DynamicGrid">Dynamic Grid</h3>
 <p>Cross-platform C++ Data structure</p>
-<?php include_once('DynamicGrid/common.php'); ?>
-<p><?php echoLink("Read more...", "/Projects/DynamicGrid/") ?></p>
+<?php include_once('dynamicgrid/common.php'); ?>
+<p><?php echoLink("Read more...", "/projects/dynamicgrid/") ?></p>
 <p><a href="#">Back to the top</a>
 <!--DYNAMIC GRID END-->
 
 <?php echoNewContentBox() ?>
 
 <!--WALKING IS HARD START-->
-<?php include_once('WalkingIsHard/common.php'); ?>
-<p><?php echoLink("Read more...", "/Projects/WalkingIsHard/") ?></p>
-<?php include_once('WalkingIsHard/commonPicture.php'); ?>
+<?php include_once('walkingishard/common.php'); ?>
+<p><?php echoLink("Read more...", "/projects/walkingishard/") ?></p>
+<?php include_once('walkingishard/commonPicture.php'); ?>
 <p><a href="#">Back to the top</a>
 <!--WALKING IS HARD END-->
 
@@ -78,8 +78,8 @@
 <h3 id="EvoScape">EvoScape <span id="WIP">[WORK IN PROGRESS]</span></h3>
 <p>Cross-platform Java 7</p>
 <p>The goal of this project is to be able to procedurally generate planets with very high details and accurecy. The planets are devided in a geodesic grid to avoid blurring and artifacts. In the future it will probably be the basis of some kind of ecosystem simulation and/or game.</p>
-<p><?php echoLink("Read more...", "/Projects/EvoScape/") ?></p>
-<p><a href="/Projects/EvoScape/2015-06-23.png" target="_blank"><img src="/Projects/EvoScape/2015-06-23.png" alt="Screenshot" style="width:600px"></a></p>
+<p><?php echoLink("Read more...", "/projects/evoscape/") ?></p>
+<p><a href="/projects/evoscape/2015-06-23.png" target="_blank"><img src="/projects/evoscape/2015-06-23.png" alt="Screenshot" style="width:600px"></a></p>
 <p><a href="#">Back to the top</a>
 <!--EVOSCAPE  END-->
 
@@ -89,8 +89,8 @@
 <h3 id="CellularSoftBody">Cellular Soft Body <span id="WIP">[WORK IN PROGRESS]</span></h3>
 <p>Cross-platform Java 8</p>
 <p>Artificial multi-cellular organisms which features neural networks and resource distibution in an evolutionary setting with soft-body physics.</p>
-<p><?php echoLink("Read more...", "/Projects/CellularSoftBody/") ?></p>
-<p><a href="/Projects/CellularSoftBody/screenshot_0.3.4.png" target="_blank"><img src="/Projects/CellularSoftBody/screenshot_0.3.4.png" alt="Screenshot of CellularSoftBody version 0.3.4" style="width:600px"></a></p>
+<p><?php echoLink("Read more...", "/projects/cellularsoftbody/") ?></p>
+<p><a href="/projects/cellularsoftbody/screenshot_0.3.4.png" target="_blank"><img src="/projects/cellularsoftbody/screenshot_0.3.4.png" alt="Screenshot of CellularSoftBody version 0.3.4" style="width:600px"></a></p>
 <p><a href="#">Back to the top</a>
 <!--CELLULAR SOFT BODY END-->
 
@@ -101,8 +101,8 @@
 <p>Windows .NET 4.5</p>
 <p>Artificial life simulation with organisms that evolve over time. They all possess an eye with several receptors which each ray trace their enviroment and measure red, green, blue and distance. This information is then sent to a neural network which is described by its DNA. Other input is its internal health. The net is then controlling its actuators, which includes motion, projected body color, a speed boost and a spike weapon. The two latter comes at a energy cost.</p>
 <p>They can hunt for food either by killing each other or collecting the spawned food. Each time a piece of food is picked up it's respawned with lesser food content and slightly more red (from green), this to make it harder to survive over time. The organism to survive the longest gets brought over to the next generation and the best half of the rest of the population gets put into a gene pool and randomly mated to produce the offspring for the next iteration. The starting neural net/DNA is originally completely random, but through evolution progressevly gets smarter.</p>
-<p><a href="/Projects/NeuralNetEvolution/NeuralNetEvolution.exe">Download</a> [2014-11-16]</p>
-<p><a href="/Projects/NeuralNetEvolution/screenshot.png" target="_blank"><img src="/Projects/NeuralNetEvolution/screenshot.png" alt="Screenshot of Neural Net Evolution" style="width:600px"></a></p>
+<p><a href="/projects/neuralnetevolution/NeuralNetEvolution.exe">Download</a> [2014-11-16]</p>
+<p><a href="/projects/neuralnetevolution/screenshot.png" target="_blank"><img src="/projects/neuralnetevolution/screenshot.png" alt="Screenshot of Neural Net Evolution" style="width:600px"></a></p>
 <p><a href="#">Back to the top</a>
 <!--NEURAL NET EVOLUTION END-->
 
@@ -112,9 +112,9 @@
 <h3 id="Fractal">Fractal</h3>
 <p>Windows .NET 4.0</p>
 <p>A multi-threaded renderer for the Mandelbrot fractal with up to 128 bit precision.</p>
-<p><a href="/Projects/Fractal/Fractal_1.2.0.1.zip">Download version 1.2.0.1</a> [2014-09-29]</br>
-<a href="/Projects/Fractal/Fractal_1.0.0.0.zip">Download version 1.0.0.0</a> [2014-09-15]</p>
-<p><a href="/Projects/Fractal/screenshot.png" target="_blank"><img src="/Projects/Fractal/screenshot_600px.png" alt="Screenshot of Fractal" style="width:600px"></a></p>
+<p><a href="/projects/fractal/Fractal_1.2.0.1.zip">Download version 1.2.0.1</a> [2014-09-29]</br>
+<a href="/projects/fractal/Fractal_1.0.0.0.zip">Download version 1.0.0.0</a> [2014-09-15]</p>
+<p><a href="/projects/fractal/screenshot.png" target="_blank"><img src="/projects/fractal/screenshot_600px.png" alt="Screenshot of Fractal" style="width:600px"></a></p>
 <p><a href="#">Back to the top</a>
 <!--FRACTAL END-->
 
@@ -141,11 +141,11 @@ If an organism reaches below a certain energy threshold, it is regarded dead and
 IF-statements works so that the pointer is increased by 1 if the statement is true, otherwise 1+4, thus skipping the next 4 instructions.
 </p>
 <p><a target="_blank" href="https://www.youtube.com/watch?v=Z9rMIZJJWWU">Video</a> [YouTube]</p>
-<p><a href="/Projects/NaturalSelection/NaturalSelection.zip">Download</a> [2013-11-26]</p>
-<p><a href="/Projects/NaturalSelection/screenshot.png" target="_blank"><img src="/Projects/NaturalSelection/screenshot_600px.png" alt="Screenshot of Natural Selection" style="width:600px"></a></p>
+<p><a href="/projects/naturalselection/NaturalSelection.zip">Download</a> [2013-11-26]</p>
+<p><a href="/projects/naturalselection/screenshot.png" target="_blank"><img src="/projects/naturalselection/screenshot_600px.png" alt="Screenshot of Natural Selection" style="width:600px"></a></p>
 <p><a href="#">Back to the top</a>
 <!--NATURAL SELECTION END-->
 
 <?php include_once("../genericPageBottom.php"); ?>
 
-<!-- Projects/index.php END -->
+<!-- projects/index.php END -->

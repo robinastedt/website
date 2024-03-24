@@ -1,4 +1,4 @@
-<!-- Music/index.php START -->
+<!-- music/index.php START -->
 
 <?php
 	$meta_information_description = "Various tracks of music produced by me.";
@@ -6,7 +6,7 @@
 
 	$params = array(
 		1,
-		'Music',
+		'music',
 		13,
 		'The tyranny of the mind',
 		'Ardor',
@@ -98,4 +98,4 @@ The rest of my tracks from 2010 are kept at my <a href="http://robinastedt.bandc
 
 <?php include_once("../genericPageBottom.php"); ?>
 
-<!-- Music/index.php END -->
+<!-- music/index.php END -->

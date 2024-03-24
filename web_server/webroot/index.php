@@ -19,7 +19,7 @@
 			<div id="mainBox">
 				<div id="titleBox"><a target="_blank" href="mailto:robin.astedt@gmail.com"><div class="title1">Robin &Aring;stedt</div><div class="title2">Contact</div></a></div>
 				<div id="linkBox">
-					<p><?php echoLink("Music", "/Music/")?> | <?php echoLink("Projects", "/Projects/")?> | <?php echoLink("Text", "/Text/")?></p>
+					<p><?php echoLink("Music", "/music/")?> | <?php echoLink("Projects", "/projects/")?> | <?php echoLink("Text", "/text/")?></p>
 				</div>
 			</div>
 		</div>
