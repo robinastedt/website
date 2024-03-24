@@ -46,7 +46,7 @@ chocks me to my core.<br />
 Madness upon madness upon madness<br />
 a torrent of dissociation.</p>
 
-<p>The hell scape within lay bare.<br />
+<p>The hellscape within lay bare.<br />
 For when I dare its peak summit<br />
 upon this outlook I behold<br />
 the tyranny of the mind.</p>
