@@ -29,7 +29,7 @@
 
 <h3 id="Tyrannyofthemind">Tyranny of the mind</h3>
 
-<p>Listen to the <?php echoLink("musical dramatization", "/music/#Thetyrannyofthemind") ?>.</p>
+<p>Listen to the <?php echoLink("musical dramatization", "/music/#Tyrannyofthemind") ?>.</p>
 
 <p>[2024-03-23]</p>
 
