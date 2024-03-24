@@ -8,5 +8,6 @@ systemctl --user daemon-reload
 
 systemctl --user stop 'podman-compose@website'
 podman-compose --in-pod 1 down || true
+podman volume rm website_webroot || true
 podman-compose --in-pod 1 build
 systemctl --user enable --now 'podman-compose@website'
