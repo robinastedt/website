@@ -7,7 +7,8 @@
 	$params = array(
 		1,
 		'Text',
-		11,
+		12,
+		'Tyranny of the mind',
 		'Arbitrary',
 		'Pain of yesteryear',
 		'The meaning of life',
@@ -24,6 +25,36 @@
 ?>
 
 <?php echoNewContentBox() ?>
+<!-- TYRANNY OF THE MIND START -->
+
+<h3 id="Tyrannyofthemind">Tyranny of the mind</h3>
+
+<p>[2024-03-23]</p>
+
+<p>How do I express the unspeakable?<br />
+The silent mist that creeps at night.<br />
+How do I bridge the untouchable?<br />
+The dangers that lurk at the edge of mind.</p>
+
+<p>There are things of which I do not dare speak,<br />
+lest I crumble where I stand.<br />
+How do I, my friend, liaise<br />
+what within myself lay deep.</p>
+
+<p>The violence of mental anguish<br />
+chocks me to my core.<br />
+Madness upon madness upon madness<br />
+a torrent of dissociation.</p>
+
+<p>The hell scape within lay bare.<br />
+For when I dare its peak summit<br />
+upon this outlook I behold<br />
+the tyranny of the mind.</p>
+
+<p><a href="#">Back to the top</a></p>
+<!-- TYRANNY OF THE MIND END -->
+
+<?php echoNewContentBox() ?>
 <!-- ARBITRARY START -->
 
 <h3 id="Arbitrary">Arbitrary</h3>
@@ -36,7 +67,6 @@ The arbitrary is not only hateful, it is tragic too.</p>
 <p>The malicious will leave you with hope of retribution, while the arbitrary will leave you confused, asking "why?"</p>
 
 <p><a href="#">Back to the top</a></p>
-
 <!-- ARBITRARY END -->
 
 <?php echoNewContentBox() ?>
