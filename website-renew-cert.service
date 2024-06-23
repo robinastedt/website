@@ -1,0 +1,6 @@
+[Unit]
+Description=Website robinastedt.com Certificate renewal
+
+[Service]
+EnvironmentFile=%h/.config/containers/compose/projects/website.env
+ExecStart=/usr/bin/podman-compose --in-pod 1 run --rm certbot renew

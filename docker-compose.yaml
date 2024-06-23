@@ -4,17 +4,32 @@ services:
   web_server:
     build: web_server
     volumes:
-      - webroot:/var/www/robinastedt.com
+      - webroot:/var/www/robinastedt.com:ro
     ports:
       - "9000:9000"
   proxy_server:
-    build: proxy_server/.
+    build: proxy_server
     ports:
       - "8080:8080"
+      - "8443:8443"
     volumes:
-      - webroot:/var/www/robinastedt.com
+      - webroot:/var/www/robinastedt.com:ro
+      - nginx_config:/etc/nginx/conf.d:ro
+      - ssl_config:/etc/nginx/ssl:ro
     links:
       - web_server
+  certbot:
+    build: certbot
+    volumes:
+      - webroot:/var/www/robinastedt.com:rw
+      - nginx_config:/etc/nginx/conf.d:rw
+      - ssl_config:/etc/letsencrypt:rw
+    links:
+      - web_server
+      - proxy_server
+
 volumes:
   webroot:
+  nginx_config:
+  ssl_config:
 ...

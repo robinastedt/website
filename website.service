@@ -1,0 +1,13 @@
+# /etc/systemd/user/website.service
+
+[Unit]
+Description=Website robinastedt.com
+
+[Service]
+Type=simple
+EnvironmentFile=%h/.config/containers/compose/projects/website.env
+ExecStart=/usr/bin/podman-compose --in-pod 1 up web_server proxy_server
+ExecStop=/usr/bin/podman pod stop pod_website
+
+[Install]
+WantedBy=default.target
