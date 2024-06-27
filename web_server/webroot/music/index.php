@@ -52,7 +52,7 @@
 <?php echoNewContentBox(); ?>
 
 <h3 id="Tyrannyofthemind">Tyranny of the mind</h3>
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=1307090357/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://robinastedt.bandcamp.com/track/tyranny-of-the-mind">Tyranny of the mind by Robin Åstedt</a></iframe>
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=1307090357/size=large/bgcol=333333/linkcol=d3d09e/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://robinastedt.bandcamp.com/track/tyranny-of-the-mind">Tyranny of the mind by Robin Åstedt</a></iframe>
 
 <?php echoNewContentBox(); ?>
 
