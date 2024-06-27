@@ -13,6 +13,7 @@ systemctl --user daemon-reload
 podman compose --in-pod 1 down || true
 podman volume rm website_webroot website_nginx_config || true
 podman image rm website_web_server website_proxy_server || true
+sleep 5  # Because, fuck synchronocity, amirite (or skill issue?)
 podman compose --in-pod 1 build
 systemctl --user enable --now website.service
 systemctl --user enable --now website-renew-cert.timer
