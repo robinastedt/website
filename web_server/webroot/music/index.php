@@ -7,7 +7,11 @@
 	$params = array(
 		1,
 		'music',
-		13,
+		17,
+		'Deny The Stars',
+		'Lacrimosa - Percussive Remix',
+		'Lacrimosa',
+		'The Good Fight',
 		'Tyranny of the mind',
 		'Ardor',
 		'Requiem for a childhood lost',
@@ -24,6 +28,26 @@
 	);
 	call_user_func_array('echoTitle', $params);
 ?>
+
+<?php echoNewContentBox(); ?>
+
+<h3 id="DenyTheStars">Deny The Stars</h3>
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=1782798628/size=large/bgcol=333333/linkcol=30cfdb/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://robinastedt.bandcamp.com/track/deny-the-stars">Deny The Stars by Robin Åstedt</a></iframe>
+
+<?php echoNewContentBox(); ?>
+
+<h3 id="LacrimosaPercussiveRemix">Lacrimosa - Percussive Remix</h3>
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=3561012200/size=large/bgcol=333333/linkcol=e8b317/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://robinastedt.bandcamp.com/track/lacrimosa-percussive-remix">Lacrimosa - Percussive Remix by Robin Åstedt</a></iframe>
+
+<?php echoNewContentBox(); ?>
+
+<h3 id="Lacrimosa">Lacrimosa</h3>
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=3912334707/size=large/bgcol=333333/linkcol=d84417/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://robinastedt.bandcamp.com/track/lacrimosa">Lacrimosa by Robin Åstedt</a></iframe>
+
+<?php echoNewContentBox(); ?>
+
+<h3 id="TheGoodFight">The Good Fight</h3>
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=3360790746/size=large/bgcol=333333/linkcol=4e6b5d/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://robinastedt.bandcamp.com/track/the-good-fight">The Good Fight by Robin Åstedt</a></iframe>
 
 <?php echoNewContentBox(); ?>
 
