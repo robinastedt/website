@@ -9,10 +9,11 @@
 	<head>
 		<?php include_once("commonHead.php"); ?>
 
-		<link rel="stylesheet" type="text/css" href="/css/front.css">
-		<link rel="stylesheet" type="text/css" href="/css/readability_switch_link.css">
+		<link rel="stylesheet" type="text/css" href="/css/front.css" />
+		<link rel="stylesheet" type="text/css" href="/css/readability_switch_link.css" />
 		<?php echoCSSFont('front'); ?>	
 		<link rel="stylesheet" type="text/css" href="/css/notIE9.css" />
+		<link rel="stylesheet" type="text/css" href="/css/semicolon_a.css" />
 	</head>
 	<body>
 		<div id="wholepageBox">
@@ -24,6 +25,7 @@
 			</div>
 		</div>
 		<?php echoReadabilitySwitchLink() ?>
+		<?php include_once("commonBodyBottom.php"); ?>
 	</body>
 </html>
 
