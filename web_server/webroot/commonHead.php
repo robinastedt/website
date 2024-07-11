@@ -10,4 +10,6 @@
 <meta name="author" content="Robin &Aring;stedt">
 <meta name="description" content="<?php echo $meta_information_description ?>">
 
+<script src="/js/nudge.js"></script>
+
 <!-- commonHead.php END -->

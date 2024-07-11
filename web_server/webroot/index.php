@@ -14,6 +14,8 @@
 		<?php echoCSSFont('front'); ?>	
 		<link rel="stylesheet" type="text/css" href="/css/notIE9.css" />
 		<link rel="stylesheet" type="text/css" href="/css/semicolon_a.css" />
+
+		<script src="/js/nudge.js"></script>
 	</head>
 	<body>
 		<div id="wholepageBox">
